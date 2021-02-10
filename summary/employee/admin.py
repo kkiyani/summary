@@ -14,7 +14,6 @@ class DepartmentAdmin(SimpleHistoryAdmin):
     pass
 
 
-
 admin.site.register(Employee, EmployeeAdmin)
 admin.site.register(Department, DepartmentAdmin)
 
